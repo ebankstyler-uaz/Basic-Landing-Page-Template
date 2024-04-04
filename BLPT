@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Professional Personal Page</title>
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>John Doe</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome!</h2>
+                    <h3>John Doe - Professional Consultant</h3>
+                </hgroup>
+                <p>I am a dedicated professional with over 10 years of experience in business consultancy. I provide expert advice and solutions in business strategy, management, and operations.</p>
+                <figure>
+                    <img src="https://source.unsplash.com/random/400x400" alt="John Doe" />
+                    <figcaption>Professional and Approachable</figcaption>
+                </figure>
+                <h3>Services</h3>
+                <p>Offering a range of services including business strategy, process optimization, and change management.</p>
+                <h3>Experience & Skills</h3>
+                <p>With a decade of experience, I bring a wealth of knowledge in various sectors of business. My skills include strategic planning, leadership, and problem-solving.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe to My Newsletter</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required />
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required />
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                    </form>
+                    </article>
+                    </div>
+                    </section>
+                    <footer class="container">
+                    <small>
+                    <a href="#">LinkedIn</a> •
+                    <a href="#">Twitter</a>
+                    </small>
+                    </footer>
+                    
+                    </body>
+                    </html>
